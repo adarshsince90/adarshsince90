@@ -9,7 +9,7 @@ Alongside enterprise backend engineering, I am passionate about building high-pe
 
 ## ⚡ Quick Stats & Focus Areas
 - 🏢 **Current Role**: Senior Staff Engineer at **Nagarro**
-- 🛠️ **Core Technologies**: C# / .NET 8, ASP.NET Core, AWS, Kubernetes, Angular, TypeScript, PostgreSQL, Docker
+- 🛠️ **Core Technologies**: C# / .NET 8, .NET 10, ASP.NET Core, AWS, Kubernetes, Angular, TypeScript, PostgreSQL, Docker
 - 🔑 **Specialties**: Centralized Identity & Entitlement Platforms (Auth0, OIDC, Duende Identity Server), Distributed Systems Design, Domain-Driven Design (DDD), Clean Architecture
 - 🧠 **AI Focus**: Entitlement-aware RAG systems, Multi-Model LLM Streaming Engines, Local-First (zero-PII) privacy designs
 
@@ -38,7 +38,7 @@ A fully client-side, privacy-first resume builder and ATS matching tool.
 | **Backend & APIs** | .NET 8 / .NET Core, ASP.NET Core, EF Core, REST APIs, GraphQL, gRPC |
 | **Architecture** | Microservices, Clean Architecture, Domain-Driven Design (DDD), SOLID, Event-Driven (Kafka) |
 | **Frontend & UI** | Angular, React 19, Vite, Glassmorphic CSS Systems, SPA & Micro-frontends |
-| **Cloud & DevOps** | AWS (EKS, Lambda, API Gateway, EC2), Docker, Kubernetes, CI/CD (TeamCity, Octopus Deploy, GitHub Actions) |
+| **Cloud & DevOps** | AWS (EKS, Lambda, API Gateway, EC2), Docker, Kubernetes, CI/CD (TeamCity, GitHub Actions) |
 | **Data & Caching** | SQL Server, PostgreSQL, MongoDB, IndexedDB (`localforage`), Upstash Redis |
 | **Security & Identity** | OAuth2, OpenID Connect (OIDC), Duende Identity Server, Auth0 |
 | **Testing & Quality** | Vitest, Playwright E2E, Unit & Integration testing, Linting & CI/CD Pipelines |
