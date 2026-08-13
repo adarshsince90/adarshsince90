@@ -3,27 +3,40 @@
 
 I am a Staff Software Engineer with **11+ years of experience** designing, building, and scaling cloud-native enterprise platforms, microservices, and distributed backend architectures. My core expertise is centered around **.NET**, **AWS**, **Kubernetes**, **Identity & Security Systems**, and modern **DevOps**. 
 
-Alongside enterprise backend engineering, I am passionate about building high-performance, privacy-first web applications and leveraging **Enterprise GenAI patterns** (such as Retrieval-Augmented Generation (RAG), security-aware context pipelines, and AI-assisted development workflows).
+Alongside enterprise backend engineering, I am passionate about building high-performance, privacy-first web applications, interactive system visualization engines, and leveraging **Enterprise GenAI patterns** (such as Retrieval-Augmented Generation (RAG), security-aware context pipelines, and AI-assisted development workflows).
 
 ---
 
 ## ⚡ Quick Stats & Focus Areas
 - 🏢 **Current Role**: Senior Staff Engineer at **Nagarro**
-- 🛠️ **Core Technologies**: C# / .NET 8, .NET 10, ASP.NET Core, AWS, Kubernetes, Angular, TypeScript, PostgreSQL, Docker
+- 🛠️ **Core Technologies**: C# / .NET 8, .NET 10, ASP.NET Core, AWS, Kubernetes, Angular, React, TypeScript, PostgreSQL, Docker
 - 🔑 **Specialties**: Centralized Identity & Entitlement Platforms (Auth0, OIDC, Duende Identity Server), Distributed Systems Design, Domain-Driven Design (DDD), Clean Architecture
-- 🧠 **AI Focus**: Entitlement-aware RAG systems, Multi-Model LLM Streaming Engines, Local-First (zero-PII) privacy designs
+- 🧠 **AI Focus**: Entitlement-aware RAG systems, Vector Retrieval, Multi-Model LLM Streaming Engines, Local-First privacy designs
 
 ---
 
-## 🚀 Featured Personal Project
+## 🚀 Featured Open-Source & Architecture Projects
 
-### 🤖 ResuMatch AI — Intelligent Resume Builder & ATS Scanner
+### 🏛️ 1. AI Full-Stack Architecture Hub — Interactive System Design Engine
+An open-source, interactive visual simulation system & knowledge base for **Senior Full-Stack, Lead Engineers, and Systems Architects** covering 6 core engineering domains.
+- 🌐 **Live Production App**: [adarshsince90.github.io/ai-fullstack-architecture-hub](https://adarshsince90.github.io/ai-fullstack-architecture-hub/)
+- 📦 **GitHub Repository**: [github.com/adarshsince90/ai-fullstack-architecture-hub](https://github.com/adarshsince90/ai-fullstack-architecture-hub)
+- 🛠️ **Tech Stack**: Vanilla ES6+ JavaScript, CSS3 Design System, HTML5, Single-Table JSON Schemas, Google Gemini & OpenAI REST APIs
+- 📌 **Key Highlights**:
+  - **Zero-Dependency Architecture**: Built with pure native browser APIs (zero npm runtimes) for maximum speed and instant GitHub Pages deployment.
+  - **9 Visual Interactive Simulators**: Step-by-step client-side playgrounds for Event Loop microtasks, React Fiber reconciliation, Distributed Saga orchestrations, OAuth2 PKCE flows, and RAG vector similarity search.
+  - **Master Domain Pillars (24 In-Depth Guides)**: Deep dives spanning C# 12/13 internals, DDD/CQRS, AWS/Azure, SQL execution plans, Fiber vs Signals, and Semantic Kernel.
+  - **292-Term Knowledge Base & BYOK AI Tutor**: Dynamic search index with `localStorage` progress tracking and integrated client-side AI study assistant.
+
+---
+
+### 🤖 2. ResuMatch AI — Intelligent Resume Builder & ATS Scanner
 A fully client-side, privacy-first resume builder and ATS matching tool.
 - 🔗 **Live Production App**: [resumatch-ai-ruby.vercel.app](https://resumatch-ai-ruby.vercel.app/)
 - 🛠️ **Tech Stack**: React 19, TypeScript 6, Vite 8, Google Gemini API, Groq Llama 3.3, Vanilla CSS, IndexedDB (`localforage`)
 - 🧪 **Test Suite**: 139 Vitest Unit Tests • 65 Playwright E2E Specs (CI/CD Pipeline)
 - 📌 **Key Highlights**:
-  - **Zero-PII Privacy Architecture**: 100% browser-based IndexedDB storage; zero candidate data stored on external servers or databases.
+  - **Zero-PII Privacy Architecture**: 100% browser-based IndexedDB storage; zero candidate data stored on external servers.
   - **Multi-Model BYOK AI Streaming Engine**: Real-time response streaming for resume parsing, keyword extraction, and bullet optimization.
   - **Dual ATS Match Engine**: Multi-metric scoring (keyword density, formatting quality, structural audit).
   - **Vector PDF Exporter**: Pixel-perfect vector PDF generation matching corporate ATS standards.
@@ -36,13 +49,13 @@ A fully client-side, privacy-first resume builder and ATS matching tool.
 | :--- | :--- |
 | **Languages** | C#, TypeScript, JavaScript (ES2024), SQL, HTML5, CSS3 |
 | **Backend & APIs** | .NET 8 / .NET Core, ASP.NET Core, EF Core, REST APIs, GraphQL, gRPC |
-| **Architecture** | Microservices, Clean Architecture, Domain-Driven Design (DDD), SOLID, Event-Driven (Kafka) |
-| **Frontend & UI** | Angular, React 19, Vite, Glassmorphic CSS Systems, SPA & Micro-frontends |
-| **Cloud & DevOps** | AWS (EKS, Lambda, API Gateway, EC2), Docker, Kubernetes, CI/CD (TeamCity, GitHub Actions) |
-| **Data & Caching** | SQL Server, PostgreSQL, MongoDB, IndexedDB (`localforage`), Upstash Redis |
-| **Security & Identity** | OAuth2, OpenID Connect (OIDC), Duende Identity Server, Auth0 |
-| **Testing & Quality** | Vitest, Playwright E2E, Unit & Integration testing, Linting & CI/CD Pipelines |
-| **AI & GenAI** | Embeddings, Vector Retrieval, RAG architectures, Google Gemini SDK, Groq Llama 3, Copilot |
+| **Architecture** | Microservices, Clean Architecture, Domain-Driven Design (DDD), CQRS, Event-Driven (Kafka/RabbitMQ), Visual Systems Simulation |
+| **Frontend & UI** | Angular, React 19, Vite, Glassmorphic CSS Systems, SPA & Micro-frontends, Fiber Reconciliation, Signals |
+| **Cloud & DevOps** | AWS (EKS, Lambda, API Gateway, EC2), Azure, Docker, Kubernetes, Terraform IaC, CI/CD (TeamCity, GitHub Actions) |
+| **Data & Caching** | SQL Server (Query Tuning), PostgreSQL, DynamoDB, MongoDB, IndexedDB, Upstash Redis |
+| **Security & Identity** | OAuth2 (PKCE), OpenID Connect (OIDC), Duende Identity Server, Auth0, OWASP Top 10 |
+| **Testing & Quality** | Vitest, Playwright E2E, Unit & Integration testing, Linting & CI/CD Security Quality Gates |
+| **AI & GenAI** | Embeddings, Cosine/HNSW Vector Search, RAG Architectures, Google Gemini SDK, Semantic Kernel, LLM Streaming Engines |
 
 ---
 
@@ -111,4 +124,5 @@ A fully client-side, privacy-first resume builder and ATS matching tool.
 ## 📬 Connect With Me
 - 💼 **LinkedIn**: [/in/adarshpawaskar](https://www.linkedin.com/in/adarshpawaskar/)
 - 📧 **Email**: [adarshsince90@gmail.com](mailto:adarshsince90@gmail.com)
-- 🌐 **Featured Project**: [resumatch-ai-ruby.vercel.app](https://resumatch-ai-ruby.vercel.app/)
+- 🏛️ **Architecture Hub**: [adarshsince90.github.io/ai-fullstack-architecture-hub](https://adarshsince90.github.io/ai-fullstack-architecture-hub/)
+- 🤖 **ResuMatch AI**: [resumatch-ai-ruby.vercel.app](https://resumatch-ai-ruby.vercel.app/)
