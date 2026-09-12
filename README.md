@@ -129,8 +129,12 @@ A fully client-side, privacy-first resume builder and ATS matching tool.
 ## 🏆 Certifications & Training
 - ☁️ **AWS Certified Cloud Practitioner**
 - 🛡️ **Microsoft Certified: Azure Fundamentals**
-- 🤖 **Learning AI with GitHub Copilot**
+- 💻 **Angular - The Complete Guide**
+- 💻 **The OWASP top 10 demystified**
+- 💻 **Reimagine Software Development Life Cycle (SDLC) with AI**
 - 💻 **Complete SDLC and Pair Programming with AI**
+- 💻 **Generative AI for Beginners: Fundamentals, Tools & Prompts**
+- 🤖 **Learning AI with GitHub Copilot** | **Pair Programming with AI**
 
 ---
 
