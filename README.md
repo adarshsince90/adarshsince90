@@ -9,7 +9,7 @@ Alongside enterprise backend engineering, I am passionate about building high-pe
 
 ## ⚡ Quick Stats & Focus Areas
 - 🏢 **Current Role**: Senior Staff Engineer at **Nagarro**
-- 🛠️ **Core Technologies**: C# / .NET 10, .NET 8, ASP.NET Core, AWS, Kubernetes, Qdrant, Angular, React 19, TypeScript, PostgreSQL, Docker
+- 🛠️ **Core Technologies**: C# / .NET 10, .NET 8, ASP.NET Core, AWS, Kubernetes, Qdrant, Angular 19+, React 19, TypeScript, PostgreSQL, Docker
 - 🔑 **Specialties**: Centralized Identity & Entitlement Platforms (Auth0, OIDC, Duende Identity Server), Distributed Systems Design, Domain-Driven Design (DDD), Clean Architecture
 - 🧠 **AI Focus**: First-principles RAG systems, Vector Databases (Qdrant), Multi-Provider LLM Streaming Engines (Ollama/Groq), Local-First privacy designs
 
@@ -30,7 +30,20 @@ An open-source, interactive visual simulation system & knowledge base for **Seni
 
 ---
 
-### ⚡ 2. Conversational RAG Engine (.NET 10) — Production-Grade AI Retrieval System
+### 🅰️ 2. Angular Enterprise Architecture & Interview Mastery Portal
+A comprehensive, production-grade architecture knowledge base and interactive web portal covering **Angular 19+ internals, reactive state patterns, and enterprise system design**.
+- 🌐 **Live Interactive Portal**: [adarshsince90.github.io/angular-interview-prep](https://adarshsince90.github.io/angular-interview-prep/)
+- 📦 **GitHub Repository**: [github.com/adarshsince90/angular-interview-prep](https://github.com/adarshsince90/angular-interview-prep)
+- 🛠️ **Tech Stack**: Angular 19+, TypeScript 5.5+, Signals Reactive Primitives, RxJS 7.8, Standalone Architecture, Zoneless Change Detection
+- 📌 **Key Highlights**:
+  - **Modern Angular 19+ Internals**: Deep dives into Signal primitives (`computed`, `effect`, `linkedSignal`), modern `@if`/`@for` control flow, and Zoneless execution models.
+  - **30+ Architectural Topic Blueprints**: Granular breakdowns spanning Element vs Environment DI trees, change detection scheduling, micro-frontend module federation, and OnPush optimization.
+  - **Interactive Learning Portal**: Built-in Angular standalone portal with real-time topic navigators, interactive cheatsheets, code playground sandboxes, and architectural decision trees.
+  - **Enterprise .NET & Security Alignment**: Practical comparisons bridging Angular frontends with .NET backends (DI lifecycle mappings, OIDC/OAuth2 PKCE token flows, and SSR/hydration).
+
+---
+
+### ⚡ 3. Conversational RAG Engine (.NET 10) — Production-Grade AI Retrieval System
 A Conversational Retrieval-Augmented Generation (RAG) system built from first principles in **.NET 10**, following Clean Architecture and Dependency Inversion.
 - 📦 **GitHub Repository**: [github.com/adarshsince90/rag-dotnet](https://github.com/adarshsince90/rag-dotnet)
 - 🛠️ **Tech Stack**: C# / .NET 10, ASP.NET Core Minimal APIs, Qdrant Vector DB, Ollama (Gemma2, nomic-embed-text), Groq Cloud LLM, PdfPig, Server-Sent Events (SSE), Docker Compose
@@ -43,7 +56,7 @@ A Conversational Retrieval-Augmented Generation (RAG) system built from first pr
 
 ---
 
-### 🤖 3. ResuMatch AI — Intelligent Resume Builder & ATS Scanner
+### 🤖 4. ResuMatch AI — Intelligent Resume Builder & ATS Scanner
 A fully client-side, privacy-first resume builder and ATS matching tool.
 - 🔗 **Live Production App**: [resumatch-ai-ruby.vercel.app](https://resumatch-ai-ruby.vercel.app/)
 - 🛠️ **Tech Stack**: React 19, TypeScript 6, Vite 8, Google Gemini API, Groq Llama 3.3, Vanilla CSS, IndexedDB (`localforage`)
@@ -63,7 +76,7 @@ A fully client-side, privacy-first resume builder and ATS matching tool.
 | **Languages** | C#, TypeScript, JavaScript (ES2024), SQL, HTML5, CSS3 |
 | **Backend & APIs** | .NET 10, .NET 8 / .NET Core, ASP.NET Core, Minimal APIs, EF Core, REST APIs, GraphQL, gRPC, SSE Streaming |
 | **Architecture** | Microservices, Clean Architecture, Domain-Driven Design (DDD), CQRS, Event-Driven (Kafka/RabbitMQ), Visual Systems Simulation |
-| **Frontend & UI** | Angular, React 19, Vite, Glassmorphic CSS Systems, SPA & Micro-frontends, Fiber Reconciliation, Signals |
+| **Frontend & UI** | Angular 19+ (Signals, Zoneless, Standalone), React 19, Vite, Glassmorphic CSS Systems, SPA & Micro-frontends, Fiber Reconciliation |
 | **Cloud & DevOps** | AWS (EKS, Lambda, API Gateway, EC2), Azure, Docker & Compose, Kubernetes, Terraform IaC, GitHub Actions CI/CD |
 | **Data & Caching** | Qdrant Vector DB, SQL Server (Query Tuning), PostgreSQL, DynamoDB, MongoDB, IndexedDB, Upstash Redis |
 | **Security & Identity** | OAuth2 (PKCE), OpenID Connect (OIDC), Duende Identity Server, Auth0, OWASP Top 10 |
@@ -141,6 +154,7 @@ A fully client-side, privacy-first resume builder and ATS matching tool.
 ## 📬 Connect With Me
 - 💼 **LinkedIn**: [/in/adarshpawaskar](https://www.linkedin.com/in/adarshpawaskar/)
 - 📧 **Email**: [adarshsince90@gmail.com](mailto:adarshsince90@gmail.com)
-- ⚡ **RAG .NET Engine**: [github.com/adarshsince90/rag-dotnet](https://github.com/adarshsince90/rag-dotnet)
 - 🏛️ **Architecture Hub**: [adarshsince90.github.io/ai-fullstack-architecture-hub](https://adarshsince90.github.io/ai-fullstack-architecture-hub/)
+- 🅰️ **Angular Architecture Portal**: [adarshsince90.github.io/angular-interview-prep](https://adarshsince90.github.io/angular-interview-prep/) • [Repo](https://github.com/adarshsince90/angular-interview-prep)
+- ⚡ **RAG .NET Engine**: [github.com/adarshsince90/rag-dotnet](https://github.com/adarshsince90/rag-dotnet)
 - 🤖 **ResuMatch AI**: [resumatch-ai-ruby.vercel.app](https://resumatch-ai-ruby.vercel.app/)
