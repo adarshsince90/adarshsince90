@@ -3,6 +3,8 @@
 ### Staff Software Engineer & Cloud-Native Architect
 **Distributed Systems • C# / .NET 10 • AWS & Kubernetes • Enterprise Identity & Security • GenAI & RAG**
 
+[![Gateway Live](https://img.shields.io/badge/Gateway-Live%20Dossier-00F3FF?style=flat-square&logo=googlechrome&logoColor=black)](https://adarshsince90.github.io/)
+[![CI/CD Gates](https://github.com/adarshsince90/adarshsince90/actions/workflows/deploy.yml/badge.svg)](https://github.com/adarshsince90/adarshsince90/actions/workflows/deploy.yml)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adarshpawaskar/)
 [![Email](https://img.shields.io/badge/Email-adarshsince90%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:adarshsince90@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-adarshsince90-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/adarshsince90)

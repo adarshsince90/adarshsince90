@@ -1,0 +1,19 @@
+{
+  "name": "adarshsince90-gateway",
+  "version": "1.0.0",
+  "description": "Executive Systems Architect Dossier & Central Gateway for Adarsh Pawaskar",
+  "private": true,
+  "scripts": {
+    "test": "node scripts/verify-gates.js",
+    "serve": "python -m http.server 3000"
+  },
+  "keywords": [
+    "systems-architecture",
+    "distributed-systems",
+    "dotnet10",
+    "cloud-native",
+    "rag"
+  ],
+  "author": "Adarsh Pawaskar <adarshsince90@gmail.com>",
+  "license": "MIT"
+}

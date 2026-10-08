@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adarsh Pawaskar | Staff Software Engineer & Cloud-Native Architect</title>
+  <meta name="description" content="Executive Systems Architect Dossier. 11+ years architecting distributed systems, C# / .NET 10, AWS, Kubernetes, enterprise identity, and browser runtime laboratories.">
+  <meta name="author" content="Adarsh Pawaskar">
+  
+  <meta property="og:title" content="Adarsh Pawaskar | Staff Software Engineer & Systems Architect">
+  <meta property="og:description" content="Explore production-grade .NET 10 RAG retrieval, visual system design simulators, and first-principles React 19 & Angular 19 runtime portals.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://adarshsince90.github.io/">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Zero-Flash Theme Bootstrapper -->
+  <script>
+    (function() {
+      try {
+        var savedTheme = localStorage.getItem('adarsh_theme');
+        if (!savedTheme) {
+          savedTheme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+        }
+        document.documentElement.setAttribute('data-theme', savedTheme);
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Centralized Ecosystem Configuration (Single Source of Truth) -->
+  <script src="./ecosystem.config.js"></script>
+
+  <!-- Universal Ecosystem Web Components -->
+  <script src="./ecosystem-shell.js" defer></script>
+</head>
+<body>
+
+  <!-- Ecosystem Nav Bar -->
+  <adarsh-ecosystem-nav></adarsh-ecosystem-nav>
+
+  <main>
+    <!-- 1. Executive Dossier Header (Hero & System Vitals) -->
+    <header class="dossier-hero" id="hero">
+      <div class="container">
+        
+        <div class="hero-topline">
+          <div class="status-indicator">
+            <span class="status-dot"></span>
+            <span>SYSTEM STATUS: ACTIVE ARCHITECTURE LABS</span>
+          </div>
+          <div style="font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted);">
+            CENTRAL GATEWAY • adarshsince90.github.io
+          </div>
+        </div>
+
+        <div class="hero-layout">
+          <!-- Bio & Positioning -->
+          <div class="bio-block">
+            <h1>Adarsh Pawaskar</h1>
+            <div class="role-title">Staff Software Engineer & Cloud-Native Systems Architect</div>
+            
+            <p class="lead-text">
+              Senior Staff Engineer and Technical Lead specializing in <strong>high-throughput distributed systems</strong>, <strong>event-driven messaging backbones</strong>, <strong>cloud-native container platforms (Kubernetes / AWS)</strong>, and <strong>enterprise federated identity ecosystems</strong> across mission-critical enterprise domains.
+            </p>
+            <p class="lead-text" style="margin-top: -12px;">
+              Unifying <strong>deep backend systems rigor (.NET 10, Kafka, Vector Search)</strong> with first-principles browser runtime laboratories (<strong>React 19 Fiber</strong> & <strong>Angular 19 Signals</strong>) to eliminate cross-boundary latency, state drift, and architectural impedance mismatch between cloud backends and client runtimes.
+            </p>
+
+            <div class="action-row">
+              <a href="https://github.com/adarshsince90" target="_blank" rel="noopener noreferrer" class="btn-dossier primary">
+                <span>📦 GitHub Profile (adarshsince90)</span>
+              </a>
+              <a href="https://www.linkedin.com/in/adarshpawaskar/" target="_blank" rel="noopener noreferrer" class="btn-dossier">
+                <span>💼 LinkedIn Profile</span>
+              </a>
+              <a href="mailto:adarshsince90@gmail.com" class="btn-dossier">
+                <span>✉️ adarshsince90@gmail.com</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Vital Metrics & Credentials Panel -->
+          <aside class="vital-panel spotlight-card">
+            <div class="vital-panel-title">
+              <span>SYSTEM VITALS & ARCHITECTURAL SCOPE</span>
+              <span style="color: var(--accent-emerald);">● PROD</span>
+            </div>
+
+            <div class="vital-grid">
+              <div class="vital-stat">
+                <div class="stat-value">11+ YRS</div>
+                <div class="stat-label">Enterprise Systems</div>
+              </div>
+              <div class="vital-stat">
+                <div class="stat-value">MULTI-CLOUD</div>
+                <div class="stat-label">AWS, K8s & Hybrid</div>
+              </div>
+              <div class="vital-stat">
+                <div class="stat-value">ADR-DRIVEN</div>
+                <div class="stat-label">Architecture Governance</div>
+              </div>
+              <div class="vital-stat">
+                <div class="stat-value">ZERO PII</div>
+                <div class="stat-label">Client Security Model</div>
+              </div>
+            </div>
+
+            <div class="vital-role-summary">
+              <strong>Senior Staff Engineer at Nagarro</strong> • Leading architecture for distributed platforms, event meshes, multi-tenant cloud ecosystems, and AI retrieval systems.
+            </div>
+          </aside>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- 1. Flagship Production Systems (The Real Proof - Placed Immediately After Intro) -->
+    <section class="dossier-section" id="production-systems">
+      <div class="container">
+        
+        <div class="section-head">
+          <span class="section-badge">[01] PRODUCTION SYSTEMS & DISTRIBUTED ENGINES</span>
+          <h2 class="section-title">Core Systems Engineering</h2>
+          <p class="section-subtitle">
+            Production-grade distributed backends, AI retrieval engines, and systems design simulators with full source code and architectural documentation.
+          </p>
+        </div>
+
+        <!-- Quick Access Systems Cockpit Table (Instant Launch Matrix) -->
+        <div class="cockpit-table-wrap spotlight-card">
+          <table class="cockpit-table">
+            <thead>
+              <tr>
+                <th style="width: 28%;">System / Interactive Portal</th>
+                <th style="width: 14%; text-align: center;">Live Demo</th>
+                <th style="width: 12%; text-align: center;">Repository</th>
+                <th style="width: 22%;">Primary Stack</th>
+                <th style="width: 24%;">Core Architectural Focus</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="table-sys-name">
+                    <span>⚡</span> <strong>Conversational RAG Engine</strong>
+                  </div>
+                  <div class="table-sys-sub">.NET 10 Retrieval Platform</div>
+                </td>
+                <td style="text-align: center;">
+                  <a href="https://adarshsince90.github.io/rag-dotnet/#overview" target="_blank" rel="noopener" class="table-btn launch">
+                    🚀 Launch ↗
+                  </a>
+                </td>
+                <td style="text-align: center;">
+                  <a href="https://github.com/adarshsince90/rag-dotnet" target="_blank" rel="noopener" class="table-btn repo">
+                    📦 Repo ↗
+                  </a>
+                </td>
+                <td>
+                  <span class="table-stack">C# / .NET 10, Qdrant, Groq</span>
+                </td>
+                <td class="table-focus">
+                  Clean Architecture, Vector Search, SSE Streaming & ADR Governance
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="table-sys-name">
+                    <span>🏛️</span> <strong>AI Full-Stack Architecture Hub</strong>
+                  </div>
+                  <div class="table-sys-sub">Visual System Design Simulator</div>
+                </td>
+                <td style="text-align: center;">
+                  <a href="https://adarshsince90.github.io/ai-fullstack-architecture-hub/" target="_blank" rel="noopener" class="table-btn launch">
+                    🚀 Launch ↗
+                  </a>
+                </td>
+                <td style="text-align: center;">
+                  <a href="https://github.com/adarshsince90/ai-fullstack-architecture-hub" target="_blank" rel="noopener" class="table-btn repo">
+                    📦 Repo ↗
+                  </a>
+                </td>
+                <td>
+                  <span class="table-stack">Vanilla ES6+, CSS3, HTML5</span>
+                </td>
+                <td class="table-focus">
+                  9 Interactive Simulators (Saga, OAuth2 PKCE, Event Loop)
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="table-sys-name">
+                    <span>⚛️</span> <strong>React 19 Runtime Portal</strong>
+                  </div>
+                  <div class="table-sys-sub">Execution Internals Laboratory</div>
+                </td>
+                <td style="text-align: center;">
+                  <a href="https://adarshsince90.github.io/react-interview-prep/" target="_blank" rel="noopener" class="table-btn launch">
+                    🚀 Launch ↗
+                  </a>
+                </td>
+                <td style="text-align: center;">
+                  <a href="https://github.com/adarshsince90/react-interview-prep" target="_blank" rel="noopener" class="table-btn repo">
+                    📦 Repo ↗
+                  </a>
+                </td>
+                <td>
+                  <span class="table-stack">React 19, TS, Vite</span>
+                </td>
+                <td class="table-focus">
+                  Fiber Reconciliation, Concurrency, Closure Traps & RSC
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="table-sys-name">
+                    <span>🅰️</span> <strong>Angular Enterprise Architecture</strong>
+                  </div>
+                  <div class="table-sys-sub">Signals & Zoneless Laboratory</div>
+                </td>
+                <td style="text-align: center;">
+                  <a href="https://adarshsince90.github.io/angular-interview-prep/" target="_blank" rel="noopener" class="table-btn launch">
+                    🚀 Launch ↗
+                  </a>
+                </td>
+                <td style="text-align: center;">
+                  <a href="https://github.com/adarshsince90/angular-interview-prep" target="_blank" rel="noopener" class="table-btn repo">
+                    📦 Repo ↗
+                  </a>
+                </td>
+                <td>
+                  <span class="table-stack">Angular 19+, Signals, RxJS</span>
+                </td>
+                <td class="table-focus">
+                  Signal Primitives, Zoneless CD, OnPush, Micro-Frontends
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="table-sys-name">
+                    <span>🤖</span> <strong>ResuMatch AI</strong>
+                  </div>
+                  <div class="table-sys-sub">Zero-PII Client-Side AI ATS</div>
+                </td>
+                <td style="text-align: center;">
+                  <a href="https://resumatch-ai-ruby.vercel.app/" target="_blank" rel="noopener" class="table-btn launch">
+                    🚀 Launch ↗
+                  </a>
+                </td>
+                <td style="text-align: center;">
+                  <span class="table-dim">—</span>
+                </td>
+                <td>
+                  <span class="table-stack">React 19, IndexedDB, Groq</span>
+                </td>
+                <td class="table-focus">
+                  Zero-PII Client-Side AI ATS & Vector PDF Generator
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="systems-stack">
+
+          <!-- System 1: Conversational RAG Engine -->
+          <article class="system-card spotlight-card">
+            <div class="system-card-header">
+              <div class="system-identity">
+                <span class="system-icon">⚡</span>
+                <div>
+                  <h3 class="system-title">Conversational RAG Engine (.NET 10)</h3>
+                  <div style="font-size: 12px; color: var(--text-muted); margin-top: 2px;">
+                    Production AI Retrieval Platform & Automated Evaluation Suite
+                  </div>
+                </div>
+              </div>
+              <div class="system-meta-tags">
+                <span class="sys-tag accent">C# / .NET 10</span>
+                <span class="sys-tag">Qdrant Vector DB</span>
+                <span class="sys-tag">Ollama & Groq</span>
+                <span class="sys-tag">Clean Architecture</span>
+                <span class="sys-tag">ADR Governance</span>
+              </div>
+            </div>
+
+            <p class="system-desc">
+              A conversational Retrieval-Augmented Generation (RAG) platform built from first principles in <strong>.NET 10</strong>, adhering strictly to Clean Architecture, Dependency Inversion, and automated evaluation gates. Built progressively from raw mathematical foundations (TF-IDF vectorization and custom cosine similarity) up to a persistent vector database with HNSW indexing.
+            </p>
+
+            <div class="system-specs-grid">
+              <div class="spec-bullet">
+                <span><strong>Multi-Provider Inference:</strong> Seamless runtime switching between private local inference (Ollama) and high-throughput cloud LLMs (Groq).</span>
+              </div>
+              <div class="spec-bullet">
+                <span><strong>Memory & Streaming:</strong> Multi-turn sliding context window with token-level Server-Sent Events (SSE) via ASP.NET Core <code>IAsyncEnumerable</code>.</span>
+              </div>
+              <div class="spec-bullet">
+                <span><strong>Automated Evaluation Suite:</strong> Integrated 12-question benchmark suite measuring groundedness, relevance, and latency backed by documented Architecture Decision Records.</span>
+              </div>
+              <div class="spec-bullet">
+                <span><strong>Companion Portal:</strong> Hosted interactive architecture hub with live query visualizers and 16 architectural assessment guides.</span>
+              </div>
+            </div>
+
+            <div class="system-actions">
+              <a href="https://adarshsince90.github.io/rag-dotnet/#overview" target="_blank" rel="noopener" class="btn-sys launch">
+                <span>🚀 Launch Architecture Portal ↗</span>
+              </a>
+              <a href="https://github.com/adarshsince90/rag-dotnet" target="_blank" rel="noopener" class="btn-sys repo">
+                <span>📦 View GitHub Repository ↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- System 2: AI Full-Stack Architecture Hub -->
+          <article class="system-card spotlight-card">
+            <div class="system-card-header">
+              <div class="system-identity">
+                <span class="system-icon">🏛️</span>
+                <div>
+                  <h3 class="system-title">AI Full-Stack Architecture Hub</h3>
+                  <div style="font-size: 12px; color: var(--text-muted); margin-top: 2px;">
+                    Zero-Dependency Visual Simulation Engine & Systems Knowledge Base
+                  </div>
+                </div>
+              </div>
+              <div class="system-meta-tags">
+                <span class="sys-tag accent">Vanilla ES6+</span>
+                <span class="sys-tag">Zero-Dep Native APIs</span>
+                <span class="sys-tag">9 Simulators</span>
+                <span class="sys-tag">Distributed Systems</span>
+              </div>
+            </div>
+
+            <p class="system-desc">
+              An open-source visual simulation platform and architecture knowledge base for Staff Engineers, Technical Leads, and Distributed Systems Architects. Built entirely with native browser APIs (zero npm runtimes) for instant loading, deterministic execution, and GitHub Pages hosting.
+            </p>
+
+            <div class="system-specs-grid">
+              <div class="spec-bullet">
+                <span><strong>9 Visual Simulators:</strong> Client-side playgrounds for Event Loop microtasks, Distributed Saga orchestrations, and OAuth2 PKCE token handoffs.</span>
+              </div>
+              <div class="spec-bullet">
+                <span><strong>24 Architectural Guides:</strong> Deep dives into C# 12/13 internals, DDD/CQRS, AWS/Azure cloud topologies, and Fiber vs Signals execution models.</span>
+              </div>
+              <div class="spec-bullet">
+                <span><strong>Systems Search Index:</strong> 292-term engineering index with client-side AI assistant and localized progress tracking.</span>
+              </div>
+              <div class="spec-bullet">
+                <span><strong>Zero Abstraction Leaks:</strong> Pure CSS3 and native DOM pipelines executing without external bundle overhead.</span>
+              </div>
+            </div>
+
+            <div class="system-actions">
+              <a href="https://adarshsince90.github.io/ai-fullstack-architecture-hub/" target="_blank" rel="noopener" class="btn-sys launch">
+                <span>🚀 Launch Simulation Engine ↗</span>
+              </a>
+              <a href="https://github.com/adarshsince90/ai-fullstack-architecture-hub" target="_blank" rel="noopener" class="btn-sys repo">
+                <span>📦 View GitHub Repository ↗</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. Dual Runtime Laboratories (First-Principles Full-Stack) -->
+    <section class="dossier-section" id="runtime-laboratories">
+      <div class="container">
+        
+        <div class="section-head">
+          <span class="section-badge">[02] FIRST-PRINCIPLES RUNTIME LABORATORIES</span>
+          <h2 class="section-title">Browser Runtime Execution Internals</h2>
+          <p class="section-subtitle">
+            To eliminate impedance mismatch between distributed backends and frontends, I built two specialized architecture portals dissecting browser runtimes from first principles.
+          </p>
+        </div>
+
+        <div class="runtime-comparison-grid">
+          
+          <!-- React 19 Portal -->
+          <article class="runtime-card spotlight-card">
+            <div>
+              <div class="runtime-head">
+                <h3 class="runtime-title">⚛️ React 19 Runtime Portal</h3>
+                <span class="sys-tag accent">React 19 & Vite</span>
+              </div>
+              <p class="runtime-desc">
+                Dissecting JavaScript execution contexts, the V8 microtask queue, Fiber reconciliation, and Concurrent Mode scheduling from the inside out.
+              </p>
+              <ul class="runtime-bullets">
+                <li><strong>Call Stack vs Microtasks:</strong> Event loop prioritization and macrotask scheduling boundaries.</li>
+                <li><strong>Fiber Tree Internals:</strong> Cooperative multitasking, lanes priority, and work loop scheduling.</li>
+                <li><strong>Closure State Traps:</strong> Memory references, stale closure models, and reconciliation trees.</li>
+                <li><strong>Cross-Platform Bridge:</strong> Translating concepts directly for enterprise .NET (async/Task) and Angular engineers.</li>
+              </ul>
+            </div>
+            <div class="system-actions" style="margin-top: 16px;">
+              <a href="https://adarshsince90.github.io/react-interview-prep/" target="_blank" rel="noopener" class="btn-sys launch">
+                <span>Launch Portal ↗</span>
+              </a>
+              <a href="https://github.com/adarshsince90/react-interview-prep" target="_blank" rel="noopener" class="btn-sys repo">
+                <span>Repo ↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Angular 19+ Portal -->
+          <article class="runtime-card spotlight-card">
+            <div>
+              <div class="runtime-head">
+                <h3 class="runtime-title">🅰️ Angular 19+ Architecture</h3>
+                <span class="sys-tag accent">Angular 19+ & Signals</span>
+              </div>
+              <p class="runtime-desc">
+                Enterprise architecture portal breaking down Signal primitives, fine-grained reactivity graphs, and Zoneless change detection scheduling.
+              </p>
+              <ul class="runtime-bullets">
+                <li><strong>Reactive Primitives:</strong> Direct breakdown of <code>computed</code>, <code>effect</code>, and <code>linkedSignal</code>.</li>
+                <li><strong>Zoneless Scheduling:</strong> Eliminating Zone.js runtime monkey-patching for OnPush optimization.</li>
+                <li><strong>Hierarchical DI:</strong> Element Injector vs Environment Injector trees and resolution algorithms.</li>
+                <li><strong>Enterprise Integration:</strong> Micro-frontends (Module Federation) and OIDC token handoffs.</li>
+              </ul>
+            </div>
+            <div class="system-actions" style="margin-top: 16px;">
+              <a href="https://adarshsince90.github.io/angular-interview-prep/" target="_blank" rel="noopener" class="btn-sys launch">
+                <span>Launch Portal ↗</span>
+              </a>
+              <a href="https://github.com/adarshsince90/angular-interview-prep" target="_blank" rel="noopener" class="btn-sys repo">
+                <span>Repo ↗</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. Applied Client-Side AI & Systems -->
+    <section class="dossier-section" id="applied-ai">
+      <div class="container">
+        
+        <div class="section-head">
+          <span class="section-badge">[03] CLIENT-SIDE SECURITY & EMBEDDED AI</span>
+          <h2 class="section-title">ResuMatch AI — Zero-PII Resume Engine</h2>
+          <p class="section-subtitle">
+            A fully client-side resume builder and ATS matching engine demonstrating strict zero-data-leakage privacy.
+          </p>
+        </div>
+
+        <article class="system-card spotlight-card">
+          <div class="system-card-header">
+            <div class="system-identity">
+              <span class="system-icon">🤖</span>
+              <div>
+                <h3 class="system-title">ResuMatch AI</h3>
+                <div style="font-size: 12px; color: var(--text-muted); margin-top: 2px;">
+                  Zero-PII Client-Side AI Resume Builder & ATS Scanner
+                </div>
+              </div>
+            </div>
+            <div class="system-meta-tags">
+              <span class="sys-tag accent">React 19 & TypeScript</span>
+              <span class="sys-tag">IndexedDB (LocalForage)</span>
+              <span class="sys-tag">Groq Llama 3.3</span>
+              <span class="sys-tag">Vector PDF Generator</span>
+            </div>
+          </div>
+
+          <p class="system-desc">
+            Engineered with a strict <strong>Zero-PII Privacy Architecture</strong>: 100% of candidate data resides exclusively in the browser's IndexedDB storage with zero telemetry or profile persistence on external servers.
+          </p>
+
+          <div class="system-specs-grid">
+            <div class="spec-bullet">
+              <span><strong>Dual ATS Match Engine:</strong> Multi-metric scoring (keyword density, formatting audit, structural validation) with pixel-perfect vector PDF output.</span>
+            </div>
+            <div class="spec-bullet">
+              <span><strong>Streaming LLM Inference:</strong> Multi-model BYOK streaming via Groq Llama 3.3 and Gemini REST APIs.</span>
+            </div>
+            <div class="spec-bullet">
+              <span><strong>Test Suite Rigor:</strong> 139 Vitest unit tests and 65 Playwright E2E specs running in automated CI/CD.</span>
+            </div>
+            <div class="spec-bullet">
+              <span><strong>Zero Backend Footprint:</strong> Completely serverless client-side operational model.</span>
+            </div>
+          </div>
+
+          <div class="system-actions">
+            <a href="https://resumatch-ai-ruby.vercel.app/" target="_blank" rel="noopener" class="btn-sys launch">
+              <span>🚀 Launch ResuMatch AI ↗</span>
+            </a>
+            <span style="font-size: 12px; color: var(--text-dim); margin-left: 8px;">(Hosted Production Client)</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 4. Technical Arsenal & Keyword Index (Fast Recruiter & ATS Scan) -->
+    <section class="arsenal-strip" id="arsenal">
+      <div class="container">
+        <div class="arsenal-card spotlight-card">
+          <div class="arsenal-head">
+            <span class="arsenal-badge">CORE TECHNICAL ARSENAL & KEYWORD INDEX</span>
+            <span class="arsenal-note">Quick Verification: Languages, Cloud, Distributed Systems & AI</span>
+          </div>
+
+          <div class="arsenal-grid">
+            
+            <div class="arsenal-row">
+              <div class="arsenal-cat">Architecture & System Design</div>
+              <div class="arsenal-stream">
+                <span class="kw strong">System Design (HLD / LLD)</span><span class="dot">•</span>
+                <span class="kw strong">Distributed Systems</span><span class="dot">•</span>
+                <span class="kw strong">Microservices</span><span class="dot">•</span>
+                <span class="kw strong">Event-Driven Architecture</span><span class="dot">•</span>
+                <span class="kw strong">Clean Architecture & DDD</span><span class="dot">•</span>
+                <span class="kw">CQRS</span><span class="dot">•</span>
+                <span class="kw strong">Saga Pattern</span><span class="dot">•</span>
+                <span class="kw">Transactional Outbox</span><span class="dot">•</span>
+                <span class="kw">C4 Model & ADRs</span><span class="dot">•</span>
+                <span class="kw">Threat Modeling & NFRs</span>
+              </div>
+            </div>
+
+            <div class="arsenal-row">
+              <div class="arsenal-cat">Scalability, Messaging & Ingress</div>
+              <div class="arsenal-stream">
+                <span class="kw strong">Apache Kafka</span><span class="dot">•</span>
+                <span class="kw strong">Redis Multi-Tier Caching</span><span class="dot">•</span>
+                <span class="kw strong">Performance Tuning & Low-Latency</span><span class="dot">•</span>
+                <span class="kw">AWS SQS & SNS</span><span class="dot">•</span>
+                <span class="kw">RabbitMQ</span><span class="dot">•</span>
+                <span class="kw strong">SignalR & WebSockets</span><span class="dot">•</span>
+                <span class="kw">gRPC / HTTP/2</span><span class="dot">•</span>
+                <span class="kw">Server-Sent Events (SSE)</span><span class="dot">•</span>
+                <span class="kw">Idempotency & Circuit Breakers</span>
+              </div>
+            </div>
+
+            <div class="arsenal-row">
+              <div class="arsenal-cat">Cloud, DevOps & SRE</div>
+              <div class="arsenal-stream">
+                <span class="kw strong">AWS (EKS, Lambda)</span><span class="dot">•</span>
+                <span class="kw strong">Azure</span><span class="dot">•</span>
+                <span class="kw strong">Kubernetes (K8s)</span><span class="dot">•</span>
+                <span class="kw">Docker Containers</span><span class="dot">•</span>
+                <span class="kw strong">OpenTelemetry (OTel Tracing)</span><span class="dot">•</span>
+                <span class="kw">Prometheus & Grafana</span><span class="dot">•</span>
+                <span class="kw">GitOps & CI/CD</span><span class="dot">•</span>
+                <span class="kw">Terraform IaC</span><span class="dot">•</span>
+                <span class="kw">SLOs & Error Budgets</span>
+              </div>
+            </div>
+
+            <div class="arsenal-row">
+              <div class="arsenal-cat">Data, Storage & AI Systems</div>
+              <div class="arsenal-stream">
+                <span class="kw strong">SQL Server</span><span class="dot">•</span>
+                <span class="kw strong">PostgreSQL</span><span class="dot">•</span>
+                <span class="kw">MongoDB</span><span class="dot">•</span>
+                <span class="kw strong">Vector Databases (Qdrant)</span><span class="dot">•</span>
+                <span class="kw strong">Production RAG & LLMs</span><span class="dot">•</span>
+                <span class="kw">HNSW Indexing</span><span class="dot">•</span>
+                <span class="kw">Sliding-Window Memory</span><span class="dot">•</span>
+                <span class="kw">Zero-PII Data Models</span>
+              </div>
+            </div>
+
+            <div class="arsenal-row">
+              <div class="arsenal-cat">Runtimes & Execution Vehicles</div>
+              <div class="arsenal-stream">
+                <span class="kw strong">C# / .NET 10 & 8</span><span class="dot">•</span>
+                <span class="kw">ASP.NET Core Minimal APIs</span><span class="dot">•</span>
+                <span class="kw">EF Core</span><span class="dot">•</span>
+                <span class="kw strong">TypeScript</span><span class="dot">•</span>
+                <span class="kw">Modern JavaScript (ES6+)</span><span class="dot">•</span>
+                <span class="kw strong">React 19 (Fiber / Concurrency)</span><span class="dot">•</span>
+                <span class="kw strong">Angular 19+ (Signals / Zoneless)</span><span class="dot">•</span>
+                <span class="kw">Python</span><span class="dot">•</span>
+                <span class="kw">Web Components / Shadow DOM</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. End-to-End Enterprise System Lifecycle Stepper -->
+    <section class="dossier-section" id="lifecycle-stepper">
+      <div class="container">
+        
+        <div class="section-head">
+          <span class="section-badge">[04] SYSTEM LIFECYCLE & GOVERNANCE</span>
+          <h2 class="section-title">End-to-End Systems Engineering Lifecycle</h2>
+          <p class="section-subtitle">
+            From strategic domain decomposition to production telemetry: how I govern, design, build, and operate resilient enterprise systems.
+          </p>
+        </div>
+
+        <div class="lifecycle-pipeline">
+          
+          <div class="pipeline-step spotlight-card">
+            <div class="step-header">
+              <span class="step-num">STAGE 01</span>
+              <span>📋</span>
+            </div>
+            <div class="step-phase">Requirements & Domain Modeling</div>
+            <div class="step-summary">
+              Strategic DDD bounded contexts, ubiquitous language, and rigorous NFR contracts (latency p99, RPO/RTO, availability targets).
+            </div>
+            <div class="step-pills">
+              <span class="step-pill">Strategic DDD</span>
+              <span class="step-pill">NFR Contracts</span>
+              <span class="step-pill">Bounded Contexts</span>
+            </div>
+          </div>
+
+          <div class="pipeline-step spotlight-card">
+            <div class="step-header">
+              <span class="step-num">STAGE 02</span>
+              <span>📐</span>
+            </div>
+            <div class="step-phase">System Design & Governance</div>
+            <div class="step-summary">
+              C4-model HLD/LLD blueprints, immutable Architecture Decision Records (ADRs), and threat modeling for data boundaries.
+            </div>
+            <div class="step-pills">
+              <span class="step-pill">C4 Model</span>
+              <span class="step-pill">ADR Rationale</span>
+              <span class="step-pill">Threat Modeling</span>
+            </div>
+          </div>
+
+          <div class="pipeline-step spotlight-card">
+            <div class="step-header">
+              <span class="step-num">STAGE 03</span>
+              <span>⚡</span>
+            </div>
+            <div class="step-phase">Distributed Fabric & Ingress</div>
+            <div class="step-summary">
+              Asynchronous event meshes, Outbox atomicity, real-time WebSockets/SignalR, and gRPC inter-service communication.
+            </div>
+            <div class="step-pills">
+              <span class="step-pill">Transactional Outbox</span>
+              <span class="step-pill">Kafka / SQS</span>
+              <span class="step-pill">SignalR & gRPC</span>
+            </div>
+          </div>
+
+          <div class="pipeline-step spotlight-card">
+            <div class="step-header">
+              <span class="step-num">STAGE 04</span>
+              <span>🚀</span>
+            </div>
+            <div class="step-phase">Progressive Delivery & CI/CD</div>
+            <div class="step-summary">
+              GitOps declarative deployments, Canary & Blue/Green releases, Testcontainers in automated integration test gates.
+            </div>
+            <div class="step-pills">
+              <span class="step-pill">GitOps</span>
+              <span class="step-pill">Canary / Blue-Green</span>
+              <span class="step-pill">Testcontainers</span>
+            </div>
+          </div>
+
+          <div class="pipeline-step spotlight-card">
+            <div class="step-header">
+              <span class="step-num">STAGE 05</span>
+              <span>📊</span>
+            </div>
+            <div class="step-phase">Telemetry & SRE Reliability</div>
+            <div class="step-summary">
+              Full-stack OpenTelemetry (OTel) distributed traces, Prometheus metrics, Grafana dashboards, and SLO/error budget governance.
+            </div>
+            <div class="step-pills">
+              <span class="step-pill">OpenTelemetry</span>
+              <span class="step-pill">Distributed Tracing</span>
+              <span class="step-pill">SLOs / Error Budgets</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. Enterprise Architectural Domains Matrix -->
+    <section class="dossier-section" id="architectural-domains">
+      <div class="container">
+        
+        <div class="section-head">
+          <span class="section-badge">[05] ENTERPRISE ARCHITECTURE DOMAINS</span>
+          <h2 class="section-title">Architectural Competencies & Production Technologies</h2>
+          <p class="section-subtitle">
+            Systematic taxonomy of patterns, frameworks, and cloud-native tools applied to build high-scale distributed applications.
+          </p>
+        </div>
+
+        <div class="domain-matrix">
+          
+          <!-- Domain 1: Distributed Messaging & Event Fabric -->
+          <div class="domain-card spotlight-card">
+            <div class="domain-card-head">
+              <span class="domain-icon">⚡</span>
+              <div class="domain-name">Event-Driven Architecture & Messaging</div>
+            </div>
+            <div class="domain-specs">
+              <div class="domain-spec-row">
+                <span class="spec-category">Brokers & Streams</span>
+                <span class="spec-details"><strong>Apache Kafka</strong>, <strong>RabbitMQ</strong>, <strong>AWS SQS & SNS</strong>, <strong>EventBridge</strong></span>
+              </div>
+              <div class="domain-spec-row">
+                <span class="spec-category">Consistency Patterns</span>
+                <span class="spec-details">Transactional Outbox Pattern, Choreographed & Orchestrated Sagas, CQRS</span>
+              </div>
+              <div class="domain-spec-row">
+                <span class="spec-category">Resilience & Delivery</span>
+                <span class="spec-details">Dead Letter Queues (DLQ), Exponential backoff with jitter, At-least-once / Idempotency</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Domain 2: Cloud Infrastructure & Container Topologies -->
+          <div class="domain-card spotlight-card">
+            <div class="domain-card-head">
+              <span class="domain-icon">☁️</span>
+              <div class="domain-name">Cloud-Native Platforms & Containers</div>
+            </div>
+            <div class="domain-specs">
+              <div class="domain-spec-row">
+                <span class="spec-category">Orchestration & Compute</span>
+                <span class="spec-details"><strong>Kubernetes (EKS / AKS)</strong>, <strong>Docker</strong>, <strong>AWS Lambda</strong>, <strong>Azure Functions</strong></span>
+              </div>
+              <div class="domain-spec-row">
+                <span class="spec-category">Autoscaling & Ingress</span>
+                <span class="spec-details">KEDA event-driven autoscaling, HPA, Helm charts, AWS ALB/NLB, CloudFront CDN</span>
+              </div>
+              <div class="domain-spec-row">
+                <span class="spec-category">Infrastructure as Code</span>
+                <span class="spec-details">Terraform, CloudFormation, VPC Peering, PrivateLink endpoints</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Domain 3: Real-Time Communication & API Ingress -->
+          <div class="domain-card spotlight-card">
+            <div class="domain-card-head">
+              <span class="domain-icon">🌐</span>
+              <div class="domain-name">Real-Time Ingress & Network Protocols</div>
+            </div>
+            <div class="domain-specs">
+              <div class="domain-spec-row">
+                <span class="spec-category">Bi-directional Protocols</span>
+                <span class="spec-details"><strong>ASP.NET Core SignalR</strong>, <strong>WebSockets</strong> (Redis Backplane), <strong>gRPC</strong> / HTTP/2</span>
+              </div>
+              <div class="domain-spec-row">
+                <span class="spec-category">Unidirectional Streaming</span>
+                <span class="spec-details">Server-Sent Events (SSE) via <code>IAsyncEnumerable</code> for token-level LLM streaming</span>
+              </div>
+              <div class="domain-spec-row">
+                <span class="spec-category">Reverse Proxies & Resilience</span>
+                <span class="spec-details">YARP / Envoy reverse proxies, Polly Circuit Breakers, Rate Limiting (Token Bucket)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Domain 4: Identity & Zero-Trust Security -->
+          <div class="domain-card spotlight-card">
+            <div class="domain-card-head">
+              <span class="domain-icon">🔐</span>
+              <div class="domain-name">Enterprise Identity & Zero-Trust</div>
+            </div>
+            <div class="domain-specs">
+              <div class="domain-spec-row">
+                <span class="spec-category">Protocols & Standards</span>
+                <span class="spec-details"><strong>OpenID Connect (OIDC)</strong>, <strong>OAuth 2.0 PKCE</strong>, Client Credentials, mTLS</span>
+              </div>
+              <div class="domain-spec-row">
+                <span class="spec-category">Identity Brokers</span>
+                <span class="spec-details"><strong>Duende IdentityServer</strong>, <strong>Auth0 SaaS</strong>, Microsoft Entra ID</span>
+              </div>
+              <div class="domain-spec-row">
+                <span class="spec-category">Session Governance</span>
+                <span class="spec-details">Stateless JWT validation via JWKS, Rolling refresh tokens, Distributed Redis revocation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Domain 5: Progressive Delivery & Quality Gates -->
+          <div class="domain-card spotlight-card">
+            <div class="domain-card-head">
+              <span class="domain-icon">🚀</span>
+              <div class="domain-name">Progressive Delivery & CI/CD</div>
+            </div>
+            <div class="domain-specs">
+              <div class="domain-spec-row">
+                <span class="spec-category">Deployment Strategies</span>
+                <span class="spec-details">Canary releases, Blue/Green deployments, Feature Flags, Automated rollback gates</span>
+              </div>
+              <div class="domain-spec-row">
+                <span class="spec-category">Test Verification Pyramids</span>
+                <span class="spec-details"><strong>Testcontainers</strong> (Dockerized Qdrant/Postgres in CI), Contract Testing (Pact)</span>
+              </div>
+              <div class="domain-spec-row">
+                <span class="spec-category">Automation Engines</span>
+                <span class="spec-details">GitHub Actions, ArgoCD GitOps pipelines, Trunk-based delivery with branch protection</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Domain 6: Telemetry, Observability & SRE -->
+          <div class="domain-card spotlight-card">
+            <div class="domain-card-head">
+              <span class="domain-icon">📊</span>
+              <div class="domain-name">Full-Stack Observability & SRE</div>
+            </div>
+            <div class="domain-specs">
+              <div class="domain-spec-row">
+                <span class="spec-category">Distributed Tracing</span>
+                <span class="spec-details"><strong>OpenTelemetry (OTel)</strong>, W3C TraceContext propagation, Jaeger, AWS X-Ray</span>
+              </div>
+              <div class="domain-spec-row">
+                <span class="spec-category">Metrics & Logging</span>
+                <span class="spec-details">Prometheus, Grafana, Structured Logging (Serilog / FluentBit), CloudWatch</span>
+              </div>
+              <div class="domain-spec-row">
+                <span class="spec-category">Reliability Disciplines</span>
+                <span class="spec-details">SLOs & SLIs, Error Budget management, Health Checks, Incident Root-Cause Analysis (RCA)</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. Career Timeline & Experience -->
+    <section class="dossier-section" id="experience">
+      <div class="container">
+        
+        <div class="section-head">
+          <span class="section-badge">[06] LEADERSHIP & CAREER TRACK</span>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-subtitle">
+            11+ years of proven delivery across enterprise cloud platforms and mission-critical architectures.
+          </p>
+        </div>
+
+        <div class="experience-timeline">
+          <!-- Role 1: Nagarro -->
+          <div class="exp-item spotlight-card">
+            <div class="exp-header">
+              <div>
+                <div class="exp-role">Senior Staff Engineer / Systems Architect</div>
+                <div class="exp-company">Nagarro • Global Commodities Intelligence Platform</div>
+              </div>
+              <span class="exp-date">FEB 2022 – PRESENT</span>
+            </div>
+            <ul class="exp-bullets">
+              <li><strong>Identity & Access Platform:</strong> Architected a centralized authorization & SSO platform leveraging <strong>Auth0 SaaS</strong> and <strong>OIDC with Duende IdentityServer</strong>, delivering fine-grained access control managers and client entitlement administrative portals.</li>
+              <li><strong>Secure Session Propagation:</strong> Engineered high-performance reverse proxy authentication services ensuring secure token propagation and zero-trust session handoffs across multiple autonomous microservices.</li>
+              <li><strong>Enterprise Microservices (.NET 8 / .NET 10):</strong> Designed and operated high-throughput, low-latency microservice architectures handling mission-critical proprietary market data streams.</li>
+              <li><strong>Production GenAI & Vector Retrieval:</strong> Formulated architectural patterns for LLM-based embeddings and enterprise RAG systems with entitlement-aware retrieval filters to prevent cross-customer data leakage.</li>
+              <li><strong>CI/CD & Operational Governance:</strong> Streamlined build and deployment pipelines using <strong>TeamCity</strong> and <strong>Octopus Deploy</strong>, instituted ADR governance, and led technical mentorship across distributed engineering pods.</li>
+            </ul>
+          </div>
+
+          <!-- Role 2: KAS Services (Kmart Australia) -->
+          <div class="exp-item spotlight-card">
+            <div class="exp-header">
+              <div>
+                <div class="exp-role">Development Engineer</div>
+                <div class="exp-company">KAS Services (Kmart Australia) • Merchandise Planning Platform</div>
+              </div>
+              <span class="exp-date">JAN 2021 – FEB 2022</span>
+            </div>
+            <ul class="exp-bullets">
+              <li><strong>Retail Operations Planning:</strong> Engineered distributed backend microservices utilizing <strong>.NET Core</strong> within an enterprise merchandise forecasting and retail planning platform.</li>
+              <li><strong>CI/CD & Refactoring:</strong> Automated deployment pipelines, defined resilient service domain boundaries, and refactored core transaction bottlenecks to boost platform scalability.</li>
+              <li><strong>Cross-Functional Delivery:</strong> Partnered closely with enterprise business analysts and product leadership to translate complex retail logistics workflows into high-throughput software architectures.</li>
+            </ul>
+          </div>
+
+          <!-- Role 3: Aptean -->
+          <div class="exp-item spotlight-card">
+            <div class="exp-header">
+              <div>
+                <div class="exp-role">Software Developer / Senior Developer</div>
+                <div class="exp-company">Aptean • Enterprise Complaint Management Platform</div>
+              </div>
+              <span class="exp-date">FEB 2018 – JAN 2021</span>
+            </div>
+            <ul class="exp-bullets">
+              <li><strong>AWS Cloud Migration:</strong> Spearheaded application modernisation from legacy monolith to <strong>.NET Core</strong> and <strong>AWS Serverless (Lambda, API Gateway)</strong>, trimming cloud operational costs by <strong>~30%</strong> while dramatically improving fault tolerance.</li>
+              <li><strong>Configurable Workflow Engine:</strong> Designed robust workflow and state-machine engines for mission-critical complaint tracking, SLAs, and regulatory dispute resolution.</li>
+              <li><strong>NLP & Text Intelligence:</strong> Integrated AI-powered sentiment analysis and text intelligence services to classify incoming customer incident tickets automatically.</li>
+              <li><strong>Engineering Quality:</strong> Mentored junior engineers, introduced comprehensive unit and integration testing pipelines, and elevated test coverage across the application lifecycle.</li>
+            </ul>
+          </div>
+
+          <!-- Role 4: QuickMove Technologies -->
+          <div class="exp-item spotlight-card">
+            <div class="exp-header">
+              <div>
+                <div class="exp-role">Software Engineer</div>
+                <div class="exp-company">QuickMove Technologies • CRM / ERP Enterprise Platform</div>
+              </div>
+              <span class="exp-date">MAY 2015 – FEB 2018</span>
+            </div>
+            <ul class="exp-bullets">
+              <li><strong>Core Enterprise Services:</strong> Owned backend service layers, business logic engines, and database schema architectures for an enterprise CRM/ERP system serving international relocation logistics.</li>
+              <li><strong>Real-Time Mobile Synchronization:</strong> Engineered bi-directional data synchronization mechanisms between mobile field endpoints and relational <strong>SQL Server</strong> clusters.</li>
+              <li><strong>Full-Stack Coordination:</strong> Directed API contracts and delivery integrations across frontend web, backend systems, and mobile engineering squads.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 8. Continuous Governance & Certifications Matrix -->
+    <section class="dossier-section" id="certifications" style="border-bottom: none;">
+      <div class="container">
+        
+        <div class="section-head">
+          <span class="section-badge">[07] CONTINUOUS GOVERNANCE & CREDENTIALS</span>
+          <h2 class="section-title">Certifications & Accreditations</h2>
+          <p class="section-subtitle">
+            Categorized credentials and verified skill assessments across Multi-Cloud Architecture (AWS & Azure), Enterprise Security (OWASP Top 10), and Applied Generative AI orchestration.
+          </p>
+        </div>
+
+        <div class="cert-ledger-card spotlight-card">
+          <div class="cert-ledger-head">
+            <span class="cert-ledger-badge">ARCHITECTURAL GOVERNANCE & CERTIFIED CREDENTIALS</span>
+            <span class="cert-ledger-count">13 VERIFIED CREDENTIALS • 4 THEMATIC DOMAINS</span>
+          </div>
+
+          <div class="cert-ledger-rows">
+
+            <!-- 1. Multi-Cloud & Architecture -->
+            <div class="cert-ledger-row">
+              <div class="cert-row-cat">
+                <span class="cert-row-icon">☁️</span>
+                <div>
+                  <div class="cert-row-cat-name">Multi-Cloud & Architecture</div>
+                  <div class="cert-row-sub">3 Credentials • AWS & Microsoft Azure</div>
+                </div>
+              </div>
+              <div class="cert-row-items">
+                <div class="cert-entry">
+                  <div class="cert-entry-main">
+                    <span class="cert-entry-title">AWS Certified Cloud Practitioner</span>
+                    <span class="cert-entry-issuer">• Amazon Web Services (AWS)</span>
+                  </div>
+                  <div class="cert-entry-meta">
+                    <span class="cert-entry-pill">JUN 2021</span>
+                    <span class="cert-entry-status">Valid thru 2024</span>
+                  </div>
+                </div>
+
+                <div class="cert-entry">
+                  <div class="cert-entry-main">
+                    <span class="cert-entry-title">Microsoft Certified: Azure Fundamentals (AZ-900)</span>
+                    <span class="cert-entry-issuer">• Microsoft</span>
+                  </div>
+                  <div class="cert-entry-meta">
+                    <span class="cert-entry-pill">JUN 2021</span>
+                    <span class="cert-entry-status verified">Active Credential</span>
+                  </div>
+                </div>
+
+                <div class="cert-entry">
+                  <div class="cert-entry-main">
+                    <span class="cert-entry-title">AWS Cloud Practitioner Essentials</span>
+                    <span class="cert-entry-issuer">• Amazon Web Services (AWS)</span>
+                  </div>
+                  <div class="cert-entry-meta">
+                    <span class="cert-entry-pill">JAN 2021</span>
+                    <span class="cert-entry-status verified">Completed</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2. Application Security & Governance -->
+            <div class="cert-ledger-row">
+              <div class="cert-row-cat">
+                <span class="cert-row-icon">🔒</span>
+                <div>
+                  <div class="cert-row-cat-name">Application Security & Governance</div>
+                  <div class="cert-row-sub">1 Credential • OWASP Top 10 Threat Modeling</div>
+                </div>
+              </div>
+              <div class="cert-row-items">
+                <div class="cert-entry">
+                  <div class="cert-entry-main">
+                    <span class="cert-entry-title">The OWASP Top 10 Demystified</span>
+                    <span class="cert-entry-issuer">• Udemy</span>
+                    <span class="cert-entry-id">Credential ID: UC-delb32d8-66ac-45f2-a112-0306d7ae71d8</span>
+                  </div>
+                  <div class="cert-entry-meta">
+                    <span class="cert-entry-pill">MAR 2022</span>
+                    <span class="cert-entry-status verified">Verified ID</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. Applied Generative AI & LLM Orchestration -->
+            <div class="cert-ledger-row">
+              <div class="cert-row-cat">
+                <span class="cert-row-icon">🧠</span>
+                <div>
+                  <div class="cert-row-cat-name">Applied Generative AI & Systems</div>
+                  <div class="cert-row-sub">7 Accreditations • Tools, Semantic Kernel, Prompts & SDLC</div>
+                </div>
+              </div>
+              <div class="cert-row-items">
+                <div class="cert-entry">
+                  <div class="cert-entry-main">
+                    <span class="cert-entry-title">Building Apps with AI Tools: ChatGPT, Semantic Kernel, and LangChain</span>
+                    <span class="cert-entry-issuer">• LinkedIn Learning</span>
+                  </div>
+                  <div class="cert-entry-meta">
+                    <span class="cert-entry-pill">DEC 2023</span>
+                    <span class="cert-entry-status verified">Accredited</span>
+                  </div>
+                </div>
+
+                <div class="cert-entry">
+                  <div class="cert-entry-main">
+                    <span class="cert-entry-title">Learning AI with GitHub Copilot</span>
+                    <span class="cert-entry-issuer">• LinkedIn Learning</span>
+                  </div>
+                  <div class="cert-entry-meta">
+                    <span class="cert-entry-pill">DEC 2023</span>
+                    <span class="cert-entry-status verified">Accredited</span>
+                  </div>
+                </div>
+
+                <div class="cert-entry">
+                  <div class="cert-entry-main">
+                    <span class="cert-entry-title">Pair Programming with AI</span>
+                    <span class="cert-entry-issuer">• LinkedIn Learning</span>
+                  </div>
+                  <div class="cert-entry-meta">
+                    <span class="cert-entry-pill">DEC 2023</span>
+                    <span class="cert-entry-status verified">Accredited</span>
+                  </div>
+                </div>
+
+                <div class="cert-entry">
+                  <div class="cert-entry-main">
+                    <span class="cert-entry-title">UX for AI: Design Practices for AI Developers</span>
+                    <span class="cert-entry-issuer">• LinkedIn Learning</span>
+                  </div>
+                  <div class="cert-entry-meta">
+                    <span class="cert-entry-pill">DEC 2023</span>
+                    <span class="cert-entry-status verified">Accredited</span>
+                  </div>
+                </div>
+
+                <div class="cert-entry">
+                  <div class="cert-entry-main">
+                    <span class="cert-entry-title">Reimagine Software Development Life Cycle (SDLC) with AI</span>
+                    <span class="cert-entry-issuer">• Udemy</span>
+                  </div>
+                  <div class="cert-entry-meta">
+                    <span class="cert-entry-pill">MAR 2026</span>
+                    <span class="cert-entry-status verified">Accredited</span>
+                  </div>
+                </div>
+
+                <div class="cert-entry">
+                  <div class="cert-entry-main">
+                    <span class="cert-entry-title">Generative AI for Beginners: Fundamentals, Tools & Prompts</span>
+                    <span class="cert-entry-issuer">• Udemy</span>
+                  </div>
+                  <div class="cert-entry-meta">
+                    <span class="cert-entry-pill">MAR 2026</span>
+                    <span class="cert-entry-status verified">Accredited</span>
+                  </div>
+                </div>
+
+                <div class="cert-entry">
+                  <div class="cert-entry-main">
+                    <span class="cert-entry-title">Using AI Imagery for Illustration and Design</span>
+                    <span class="cert-entry-issuer">• LinkedIn Learning</span>
+                  </div>
+                  <div class="cert-entry-meta">
+                    <span class="cert-entry-pill">DEC 2023</span>
+                    <span class="cert-entry-status verified">Accredited</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4. Language & Algorithmic Problem Solving -->
+            <div class="cert-ledger-row">
+              <div class="cert-row-cat">
+                <span class="cert-row-icon">💻</span>
+                <div>
+                  <div class="cert-row-cat-name">Language & Algorithmic Foundations</div>
+                  <div class="cert-row-sub">2 Assessments • Verified C# & Problem Solving</div>
+                </div>
+              </div>
+              <div class="cert-row-items">
+                <div class="cert-entry">
+                  <div class="cert-entry-main">
+                    <span class="cert-entry-title">C# (Basic) Skills Assessment</span>
+                    <span class="cert-entry-issuer">• HackerRank</span>
+                  </div>
+                  <div class="cert-entry-meta">
+                    <span class="cert-entry-pill">FEB 2021</span>
+                    <span class="cert-entry-status verified">Verified Skills</span>
+                  </div>
+                </div>
+
+                <div class="cert-entry">
+                  <div class="cert-entry-main">
+                    <span class="cert-entry-title">Problem Solving (Basic) Skills Assessment</span>
+                    <span class="cert-entry-issuer">• HackerRank</span>
+                  </div>
+                  <div class="cert-entry-meta">
+                    <span class="cert-entry-pill">FEB 2021</span>
+                    <span class="cert-entry-status verified">Verified Skills</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Fixed Floating Quick-Scroll Rail (Desktop ScrollSpy) -->
+    <nav class="dossier-rail" id="dossierRail" aria-label="Dossier Section Navigation">
+      <div class="rail-header">DOSSIER NAV</div>
+      <ul class="rail-list">
+        <li><a href="#hero" class="rail-link active" data-target="hero"><span class="rail-dot"></span><span class="rail-text">Overview</span></a></li>
+        <li><a href="#production-systems" class="rail-link" data-target="production-systems"><span class="rail-dot"></span><span class="rail-text">Systems</span></a></li>
+        <li><a href="#runtime-laboratories" class="rail-link" data-target="runtime-laboratories"><span class="rail-dot"></span><span class="rail-text">Runtime Labs</span></a></li>
+        <li><a href="#applied-ai" class="rail-link" data-target="applied-ai"><span class="rail-dot"></span><span class="rail-text">Applied AI</span></a></li>
+        <li><a href="#arsenal" class="rail-link" data-target="arsenal"><span class="rail-dot"></span><span class="rail-text">Tech Arsenal</span></a></li>
+        <li><a href="#lifecycle-stepper" class="rail-link" data-target="lifecycle-stepper"><span class="rail-dot"></span><span class="rail-text">Lifecycle</span></a></li>
+        <li><a href="#architectural-domains" class="rail-link" data-target="architectural-domains"><span class="rail-dot"></span><span class="rail-text">Domains</span></a></li>
+        <li><a href="#experience" class="rail-link" data-target="experience"><span class="rail-dot"></span><span class="rail-text">Experience</span></a></li>
+        <li><a href="#certifications" class="rail-link" data-target="certifications"><span class="rail-dot"></span><span class="rail-text">Certifications</span></a></li>
+      </ul>
+    </nav>
+
+  </main>
+
+  <!-- Universal Dignified Footer -->
+  <adarsh-footer></adarsh-footer>
+
+  <!-- Floating Section Rail ScrollSpy Controller -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const railLinks = document.querySelectorAll('.rail-link');
+      if (!railLinks.length) return;
+
+      const targetIds = Array.from(railLinks).map(link => link.getAttribute('data-target'));
+      const sectionElements = targetIds.map(id => document.getElementById(id)).filter(Boolean);
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const currentId = entry.target.getAttribute('id');
+            railLinks.forEach(link => {
+              if (link.getAttribute('data-target') === currentId) {
+                link.classList.add('active');
+              } else {
+                link.classList.remove('active');
+              }
+            });
+          }
+        });
+      }, {
+        root: null,
+        rootMargin: '-15% 0px -65% 0px',
+        threshold: 0
+      });
+
+      sectionElements.forEach(sec => observer.observe(sec));
+
+      railLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('data-target');
+          const targetEl = document.getElementById(targetId);
+          if (targetEl) {
+            const headerHeight = 70;
+            const targetPos = targetEl.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+            window.scrollTo({
+              top: targetPos,
+              behavior: 'smooth'
+            });
+            if (history.replaceState) {
+              history.replaceState(null, null, '#' + targetId);
+            }
+          }
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
